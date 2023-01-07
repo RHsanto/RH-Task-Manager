@@ -8,7 +8,7 @@ const Home = () => {
       </header>
       <div className="md:container md:mx-auto">
         <div className=" grid md:grid-cols-4 grid-cols-1 gap-4 mt-20">
-          <div id="todo_card" className="bg-slate-200">
+          <div id="todo_card" className="bg-slate-200 h-96">
             <div
               id="todo_head"
               className="bg-indigo-700 rounded
@@ -19,7 +19,7 @@ const Home = () => {
             </div>
             <div className=""></div>
           </div>
-          <div id="in_process" className="">
+          <div id="in_process" className="bg-zinc-200		h-96">
             <div
               id="in-process_head"
               className="bg-cyan-400 rounded
@@ -29,7 +29,7 @@ const Home = () => {
               <button className="text-3xl border rounded-lg px-3">+</button>
             </div>
           </div>
-          <div id="review_card" className="">
+          <div id="review_card" className="bg-slate-200 h-96">
             <div
               id="review_head"
               className="bg-amber-400	 rounded
@@ -39,7 +39,7 @@ const Home = () => {
               <button className="text-3xl border rounded-lg px-3">+</button>
             </div>
           </div>
-          <div id="done-card" className="">
+          <div id="done-card" className="bg-zinc-200		h-96">
             <div
               id="done-head"
               className="bg-lime-500	 rounded
