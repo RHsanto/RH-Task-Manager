@@ -12,10 +12,9 @@ const Home = () => {
             <div
               id="todo_head"
               className="bg-indigo-700 rounded
-             text-white p-4 flex justify-between items-center"
+             text-white p-4 text-center "
             >
               <h1>TO DO</h1>
-              <button className="text-3xl border rounded-lg px-3">+</button>
             </div>
             <div className=""></div>
           </div>
@@ -23,30 +22,28 @@ const Home = () => {
             <div
               id="in-process_head"
               className="bg-cyan-400 rounded
-             text-white p-4 flex justify-between items-center"
+             text-white p-4 text-center"
             >
-              <h1>IN PROGRESS</h1>
-              <button className="text-3xl border rounded-lg px-3">+</button>
-            </div>
+              <h1>IN PROGRESS</h1> 
+              </div>
           </div>
           <div id="review_card" className="bg-slate-200 h-96">
             <div
               id="review_head"
               className="bg-amber-400	 rounded
-             text-white p-4 flex justify-between items-center"
+             text-white p-4 text-center "
             >
               <h1>REVIEW</h1>
-              <button className="text-3xl border rounded-lg px-3">+</button>
             </div>
+            <button className="button">ADD</button>
           </div>
           <div id="done-card" className="bg-zinc-200		h-96">
             <div
               id="done-head"
               className="bg-lime-500	 rounded
-             text-white p-4 flex justify-between items-center"
+             text-white p-4 text-center"
             >
               <h1>DONE</h1>
-              <button className="text-3xl border rounded-lg px-3">+</button>
             </div>
           </div>
         </div>
